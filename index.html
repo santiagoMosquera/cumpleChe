@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#17162b">
+  <title>Un cumpleaños lleno de recuerdos 🎉</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="videos.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="shell">
+    <section id="coverScreen" class="coverScreen" aria-labelledby="coverTitle">
+      <div class="coverContent">
+        <div class="coverArt" id="coverArt" aria-hidden="true">🎉</div>
+        
+        <h1 id="coverTitle">¡Feliz cumpleaños, ñaño!</h1>
+        <p id="coverMessage">Con todo el cariño de esos abrazos inolvidables
+Te quiero mucho CHE</p>
+        <button id="startBtn" class="primary" type="button">ABRIR REGALO</button>
+      </div>
+    </section>
+
+    <section id="gameScreen" class="gameScreen" aria-label="Juego de parejas" hidden>
+      <div class="gameTop">
+        <div class="roundInfo"><strong id="levelStat">Ronda 1</strong><span id="progressStat">Recibe el amor de tu familia y amigos</span></div>
+        <button id="resetBtn" class="reset" type="button">↻ Reiniciar</button>
+      </div>
+      <div class="progress"><div id="progressBar" class="progressBar"></div></div>
+      <div id="message" class="message" role="status" aria-live="polite">MARCAS</div>
+      <div id="board" class="board" aria-label="Tablero de ocho cartas"></div>
+    </section>
+    <section id="interludeScreen" class="specialScreen" hidden aria-label="Pausa musical">
+      <div class="specialContent">
+        <p class="eyebrow">UN MOMENTO ESPECIAL</p>
+        <h1>¡Un poquito de sentimiento, CHE!</h1>
+        <p>Después de tantas sonrisas, llegó el momento de dedicarte una canción cortavenas. ❤️</p>
+        <img id="interludeImage" class="interludeImage" src="assets/imagenes/cortavenas.png" alt="Portada de la canción">
+        <button id="playInterlude" class="primary" type="button">▶ REPRODUCIR CANCIÓN</button>
+        <button id="continueInterlude" class="secondary" type="button">CONTINUAR REGALO →</button>
+        <audio id="interludeAudio" preload="none" controls hidden></audio>
+      </div>
+    </section>
+    <section id="finalScreen" class="specialScreen" hidden aria-label="Celebración final">
+      <div id="finalPortadas" class="finalPortadas" aria-hidden="true"></div>
+      <div class="finalVeil" aria-hidden="true"></div>
+      <div id="confetti" class="confetti" aria-hidden="true"></div>
+      <div class="specialContent finalContent">
+        <div class="finalEmoji" aria-hidden="true">🎂🎉</div>
+        <h1>¡FELIZ CUMPLE CHE!</h1>
+        <p>Con todo el amor de tu familia y amigos. ❤️</p>
+        <button id="restartFinal" class="secondary" type="button">↻ VOLVER A JUGAR</button>
+        <audio id="finalAudio" preload="auto"></audio>
+      </div>
+    </section>
+  </main>
+
+  <div id="videoModal" class="modal" hidden>
+    <div class="modalPanel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modalHeader"><div><span class="eyebrow">✨ ¡PAREJA DESCUBIERTA!</span><h2 id="modalTitle">Tienes un saludo</h2></div><button id="closeModalX" class="iconBtn" type="button" aria-label="Cerrar video">✕</button></div>
+      <video id="greetingVideo" controls playsinline preload="metadata" controlsList="nodownload"></video>
+      <p id="videoError" class="error" hidden>No se pudo cargar este video. Comprueba su nombre, formato y ubicación.</p>
+      <button id="continueBtn" class="primary" type="button">Seguir jugando →</button>
+    </div>
+  </div>
+</body>
+</html>

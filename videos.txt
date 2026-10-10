@@ -1,0 +1,10 @@
+# Asocia cada pareja de imágenes con el nombre EXACTO de su video.
+# Formato: imagenNUMERO - archivo.mp4
+# Los videos deben estar en la carpeta assets/videos/
+# Edita este texto cuando tengas los nombres reales.
+# Las líneas que comienzan con # se ignoran.
+
+imagen1 - laVeris.mp4
+imagen2 - juan.mp4
+# imagen3 - roberto.mp4
+# imagen4 - otroSaludo.mp4

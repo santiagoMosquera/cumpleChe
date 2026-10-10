@@ -1,0 +1,60 @@
+Coloca portada1.png, portada2.png, ... portada28.png en esta carpeta.
+
+
+
+Emisión de facturas con firmador!!
+PUedo firmar documentos - alerta para vencerse
+Solicitar la firma a nosotros mismo
+
+
+SISTEMA - proforma
+Costos para que esté funcional al 100%
+
+Quieren ser escalables, en un momento quieren tener el servicio
+de que el contador o el cliente pueda descargar facturas 
+a fin de mes. De manera automática (RPA)
+	Facilitar para los contadores
+
+El cliente necesita el servicio, como lo haga el contador es independiente
+
+Cuando un contador se suscribe a la aplicación, puede subir su hoja de vida, 
+para el market place
+
+Cualquier persona pudiera generar una declaración
+	Que sea más intuitivo
+
+Recuperar la confianza en el contador
+
+Soporte y Mantenimiento... continua el trabajo (ajustes, configuración)
+
+Declaraciones semestrales!!
+
+CLIENTE
+	Facturar, firmar en el sistema - historial que ha firmado y las fechas
+	Podamos firmar a través de la aplicación (nuestra firma electrónica)
+	Servicio contable que van a ofrecer los contadores, va a poder suscribirse
+	El contador va a tener que pagar por el servicio porque va a generar ingresos
+	porque va a solicitar los servicios del cliente (inDrive)
+		Validaciaon Uber e Indrive
+	
+Acercarse al contador... si podría hacerse dentro de...
+	Hasta qué punto se puede llevar a cabo
+
+NO sería en esta fase, no sería factible
+Quiere que se refleje una interface de lo que ha realizado el contador
+
+-- Ellos registran, patentaron cierta parte del proyecto
+
+SIstema de facturación que tienen al momento al sistema de contabilidad que tengan
+
+Se liga al sitema de facturación que tienen ahorita tienen la parte contable, inventarios
+y reporteria
+
+FACTURACION MAS FACIL PARA EL CLIENTE
+Su cliente final son emprendedores y salud
+
+Se les hace difícil ir a la nube, prefieren tener MI NEGOCIO
+
+En el nuestro ingresan la cedula y ya
+
+
